@@ -1,0 +1,23 @@
+.mobileAvatar{
+    display: none;
+}
+#background{
+    background-image: url("images/background.jpeg");
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    
+    
+    
+}
+@media only screen and (max-width:768px){
+    #background  {
+        background-image: none;
+    }
+    .mobileAvatar {
+        display:block;
+    }
+    .pcAvatar {
+        display: none;
+    }
+}
