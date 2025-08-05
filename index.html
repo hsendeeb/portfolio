@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <script
@@ -55,16 +56,22 @@
       <div class="container mt-5">
         <div class="row mt-5">
           <div class="col-md-5 mb-5 mobileAvatar">
-            <img
-              class="img mx-auto d-block border border-black border-4 w-50 h-auto rounded rounded-circle"
-              src="images/clients.jpg"
-              alt=""
+            
+            <img 
+              class="img mx-auto d-block object-fit-cover rounded rounded-circle "
+              src="images/Screenshot_20250624_190337_Gallery.jpg"
+              alt="" style="width: 200px ;height: 200px;;"
             />
+         
           </div>
           <div class="col-md-6">
-            <h2 class=" text-sm-start text-center bg-info bg-opacity-10 py-1 ps-3 pe-0">Hsen deeb</h2>
+            <h2
+              class="text-sm-start text-center bg-info bg-opacity-10 py-1 ps-3 pe-0"
+            >
+              Hsen deeb
+            </h2>
             <h1
-              class=" fw-bolder text-sm-start text-center text-primary bg-primary bg-opacity-10 py-1 ps-3 pe-0 rounded rounded-4"
+              class="fw-bolder text-sm-start text-center text-primary bg-primary bg-opacity-10 py-1 ps-3 pe-0 rounded rounded-4"
             >
               Web developer
             </h1>
@@ -77,52 +84,172 @@
           </div>
           <div class="col-md-6 pcAvatar">
             <img
-              class="img mx-auto d-block border border-black border-4 w-50 h-auto rounded rounded-circle"
-              src="images/clients.jpg"
-              alt=""
+              class="img mx-auto d-block  object-fit-cover rounded rounded-circle"
+              src="images/Screenshot_20250624_190337_Gallery.jpg"
+              alt="" style="width: 200px ;height: 200px;"
             />
           </div>
         </div>
       </div>
     </div>
     <div class="container mt-5">
-      <h1 class="text-center">My services</h1>
+      <h1 class="text-center fw-bolder">My services</h1>
       <div class="row mt-5">
-          <div class="col-md-4 mb-4">
-          <div class="card border-primary border-2 py-2" >
-            <img src="images/publish.png" class="card-img-top w-25 mx-auto" alt="..." />
+        <div class="col-md-4 mb-4">
+          <div id="service" class="card py-2">
+            <img
+              src="images/publish.png"
+              class="card-img-top w-25 mx-auto"
+              alt="..."
+            />
             <div class="card-body">
-                <h5 class="text-center fw-bolder">Full stack development</h5>
+              <h5 class="text-center fw-bolder">Full stack development</h5>
               <p class="card-text fst-italic">
-                If you have an idea and you want the world to see it, i can publish it by making a fully functional website
-              </p>
-            </div>
-          </div>
-        </div>
-          <div class="col-md-4 mb-4">
-          <div class="card border-primary border-2 py-2" >
-            <img src="images/responsive.png" class="card-img-top w-25 mx-auto" alt="..." />
-            <div class="card-body">
-                <h5 class="text-center fw-bolder">Responsive design</h5>
-              <p class="card-text fst-italic">
-                If you have an idea and you want the world to see it, i can publish it by making a fully functional website
+                If you have an idea and you want the world to see it, i can
+                publish it by making a fully functional website
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-4">
-          <div class="card border-primary border-2 py-2" >
-            <img src="images/ee-commerce.png" class="card-img-top w-25 mx-auto" alt="..." />
+          <div id="service" class="card py-2">
+            <img
+              src="images/responsive.png"
+              class="card-img-top w-25 mx-auto"
+              alt="..."
+            />
             <div class="card-body">
-                <h5 class="text-center fw-bolder">E-commerce development</h5>
+              <h5 class="text-center fw-bolder">Responsive design</h5>
               <p class="card-text fst-italic">
-                If you have a store,shop or trading company ,i can level up  your business to be known worldwide
+                If you have an idea and you want the world to see it, i can
+                publish it by making a fully functional website
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div id="service" class="card py-2">
+            <img
+              src="images/ee-commerce.png"
+              class="card-img-top w-25 mx-auto"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="text-center fw-bolder">E-commerce development</h5>
+              <p class="card-text fst-italic">
+                If you have a store,shop or trading company ,i can level up your
+                business to be known worldwide
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="container-fluid p-5 mt-5 projects">
+      <div class="row">
+        <h1 id="projects" class="text-center fw-bolder mb-5">My projects</h1>
+        <div class="col-md-4  mb-3">
+          <div
+            class="card border-top-3 border-bottom-3 border-start-0 border-end-0 border-warning rounded rounded-4 py-2 bg-white bg-opacity-25 shadow"
+          >
+            <img
+              src="images/carwash.jpg"
+              class="card-img-top object-fit-contain  mx-auto"
+              alt="..." style="width: 200px;height: 200px;"
+            />
+            <div class="card-body">
+              <h5 class="text-center fw-bolder">Deeb Car care</h5>
+              <p class="card-text fst-italic">
+                A simple website made for a car wash to show the car wash services,built using :HTML,Bootstrap CSS and JQuery
+              </p>
+              <a href="https://github.com/hsendeeb/DeebCarCare" class="btn btn-outline-primary w-100"
+                >view on GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  mb-3">
+          <div
+            class="card border-top-3 border-bottom-3 border-start-0 border-end-0 border-warning rounded rounded-4 py-2 bg-white bg-opacity-25 shadow"
+          >
+            <img
+              src="images/ostoralogo.jpg"
+              class="card-img-top object-fit-contain  mx-auto"
+              alt="..." style="width: 200px;height: 200px;"
+            />
+            <div class="card-body">
+              <h5 class="text-center fw-bolder">Cafe Al-Ostora</h5>
+              <p class="card-text fst-italic">
+                A simple digital menu made for a friend to present the cafe products in an efficient and stylish way
+              </p>
+              <a href="https://github.com/hsendeeb/ostoracafe" class="btn btn-outline-primary w-100"
+                >view on GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  mb-3">
+          <div
+            class="card border-top-3 border-bottom-3 border-start-0 border-end-0 border-warning rounded rounded-4 py-2 bg-white bg-opacity-25 shadow"
+          >
+            <img
+              src="images/restaurant.png"
+              class="card-img-top  mx-auto object-fit-contain"
+              alt="..." style="width: 200px;height: 200px;"
+            />
+            <div class="card-body">
+              <h5 class="text-center fw-bolder">Restaurant Online</h5>
+              <p class="card-text fst-italic">
+                A web app inspired from <b>toters</b>,it is an online food
+                ordering system built with :HTML,Bootstrap CSS,javaScript,PHP
+                and MySQL
+              </p>
+              <a href="https://github.com/hsendeeb/Restaurants-online" class="btn btn-outline-primary w-100"
+                >view on GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <h1 class="text-center fw-bolder mt-3">Education</h1>
+    <div id="education" class="container-fluid p-5 mt-5 ">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center fw-bolder">LT in MIS</h1>
+          <div class="text-center w-100 mx-auto">
+            <p>I am a certified full stack web developer from Al-Amal high institute,Sarafand</p>
+            <p>Ranked #18 over lebanon year 2024/2025</p>
+            <h1 class="text-center fw-bolder">TS2 in MIS</h1>
+            <p>Ranked #10 over lebanon year 2023/2024</p>
+          </div>
+
+         
+
+        </div>
+      </div>
+    </div>
+    <footer class="mb-0 mt-5 p-3 bg-black text-white">
+     <h1 class="text-center fw-bolder mb-3">Contact</h1> 
+      <div class="row">
+        <div class="col-md-7">
+          <a class="d-block w-50 mx-auto btn btn-success  mx-auto rounded rounded-3 " href="whatsapp"><i class="fa-brands fa-whatsapp"></i> whatsapp</a>
+           <a class="d-block w-50 mx-auto mt-3 btn btn-primary  rounded rounded-3 " href="whatsapp"><i class="fa-brands fa-facebook"></i> facebook</a>
+           <a class="d-block w-50 mx-auto mt-3 btn btn-info  rounded rounded-3 " href="whatsapp"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+
+
+        </div>
+           <div class="col-md-5  ">
+          <img src="images/githublogo.png" class="img-fluid object-fit-contain mx-auto w-100 rounded rounded-5 mt-5 " style="width: 200px;height: 150px;" alt="">
+          <hr class="text-primary w-50 mx-auto border-4 opacity-100">
+          <h5 class=" text-center fw-bolder">visit my GitHub account:</h5><br>
+          <button class="btn btn-outline-light w-50 d-block  mx-auto  ">visit GitHub <i class="fa-solid fa-arrow-right text-black"></i></button>
+
+        </div>
+      </div>
+
+    </footer>
+   
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

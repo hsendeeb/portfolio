@@ -1,6 +1,12 @@
 .mobileAvatar{
-    display: none;
+    display: none; 
+     
 }
+
+
+
+
+
 #background{
     background-image: url("images/background.jpeg");
     background-size:contain;
@@ -20,4 +26,34 @@
     .pcAvatar {
         display: none;
     }
+}
+.card {
+    transition: ease 1s;
+}
+.card {
+    transition: border 0.3s ease;
+}
+
+.card:hover {
+    border: 2px solid green;
+}
+.card {
+    border: 2px solid blue;
+    transition: border 0.6s ease;
+}
+
+.card:hover {
+    border: 2px solid violet;
+}
+.projects {
+    background-image: url("images/backproject.jpg");
+    background-size: cover;
+    background-position: center;;
+    background-repeat: no-repeat;
+}
+#education {
+    background-image: url("images/certificate.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
